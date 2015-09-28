@@ -1,2 +1,52 @@
 What is the command for listing files in Linux?
-ls -type f
+ls  . You would use ls command which stands for list. 
+
+What is the command for listing files in Linux in reverse time order?
+ls -r . The ls will list the files
+
+What is the command for listing files in Linux in reverse time order with access times and permissions?
+
+
+Why would you do this?
+
+
+Why questions are not optional. They are worth more points, e.g., passing points
+Because being able to answer the questions show that we understand the content and we are able to convey our knowlegdge.
+How can you search the contents of one file for a text string?
+
+
+What would be the regular expression search for social security numbers?
+
+
+Email addresses?
+
+
+How can you search the contents of a disk image for a text string?
+
+
+Why would you do this instead of searching files?
+
+
+
+What is the command to find files in Linux?
+
+
+What is the command to find all XLS documents in a directory?
+
+
+What is the command to find all files and identify their characteristics?
+
+
+Why would you do this?
+
+
+What is the command list disk characteristics?
+
+
+to mount an image?
+
+
+How can you fill a disk / disk image with 0s?
+
+
+Why would you fill a disk image with zeros?
