@@ -1,0 +1,30 @@
+Use wget to get this webpage
+http://d22.ninja/digitalforensics_1516/resources/directory.cfm
+
+Use your regularcd
+cd expression knowledge to gather only the email addresses listed in it.
+
+At the top of your journal, describe the process you used.
+I first used 
+wget http://d22.ninja/digitalforensics_1516/resources/directory.cfm .
+Then I greped the webpage that  I saved on my computer looking for 
+@neisd.net and sorted it.
+ grep -ao '[^@ : >]*neisd.net' directory.cfm | sort -u
+Then it Gave me this list.
+agnosp@neisd.net
+apape@neisd.net
+bblanc@neisd.net
+clocka@neisd.net
+ddavis2@neisd.net
+gbekar@neisd.net
+jcontr1@neisd.net
+jgrant5@neisd.net
+jstanc@neisd.net
+jvidal1@neisd.net
+kphilb1@neisd.net
+mdagge1@neisd.net
+mfalco1@neisd.net
+rarroy@neisd.net
+shudso@neisd.net
+wclaug@neisd.net
+

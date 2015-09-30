@@ -1,20 +1,22 @@
 What is the command for listing files in Linux?
-ls  . You would use ls command which stands for list. 
+ls . You would use ls command which stands for list. 
 
 What is the command for listing files in Linux in reverse time order?
-ls -r . The ls will list the files and -r will have it listed in reverse 
-time order. 
+ls -r . The ls will list the files and -r will do it in reverse.
 
 What is the command for listing files in Linux in reverse time order with 
 access times and permissions?
-ls -lrt . The ls will list the files and -lrt will show you the access times
-and permissionds of the list in reverse time order.
+ls -lrt . The ls will list the files and -lrt will show the list with access
+times and permissions in reverse time order. 
 
 Why would you do this?
-To see the access times and permissions of a suspects drive or file. To use as evedance in the court of law. 
+You would use this to see the access times and permissions of a drive or file.
+giveing you key information for the case.
 
 Why questions are not optional. They are worth more points, e.g., passing points
-Because being able to answer the questions show that we understand the content and we are able to convey our knowlegdge.
+Because being able to ser
+
+
 How can you search the contents of one file for a text string?
 
 
