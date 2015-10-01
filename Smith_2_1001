@@ -1,0 +1,44 @@
+What is a file system?
+
+Def:
+In a computer, a file system (sometimes written filesystem) is the way in 
+which files are named and where they are placed logically for storage 
+and retrieval.
+
+Aws:
+So when I make a file it determans where it's going to be placed in the 
+hard drive.
+
+What are inodes?
+
+Def:
+In a Unix-style file system, the inode is a data structure used to represent 
+a filesystem object, which can be one of various things including a file
+or a directory. Each inode stores the attributes and disk block location(s) 
+of the filesystem object's data.
+
+Aws:
+It is the place the file system saves the data too.
+
+What are disk partitions?
+
+Def:
+In personal computers, a partition is a logical division of a hard disk 
+created so that you can have different operating systems on the same hard 
+disk or to create the appearance of having separate hard drives for 
+file management, multiple users, or other purposes.
+
+Aws:
+Its the division of the hard drive so files will go to The right place 
+that way it will be easy to find for the file system.
+
+What are journaling file systems?
+
+Def:
+A journaling file system is a file system that keeps track of changes not 
+yet committed to the file system's main part by recording the intentions of 
+such changes in a data structure known as a "journal", which is usually a 
+circular log.
+
+Aws:
+This system logs the edit times and stuff for whatever you access a file. 
