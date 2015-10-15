@@ -1,0 +1,16 @@
+Do the following and describe the results:
+Make a list of search terms:
+$50,000
+ransom
+unleash a virus
+
+In a file searchterms.txt
+grep -abif searchterms.txt practical.floppy.dd > hits.txt
+cat hits.txt
+xxd -s 75441 practical.floppy.dd | less
+fallocate -l 10M file.out
+dd -h
+dd if=/dev/zero of=file.out
+dd if=/dev/zero bs=1M count=10M of=file2.out
+xxd -a file.out
+xxd -a practical.floppy.dd
