@@ -1,0 +1,18 @@
+What is a disk image?
+
+A disk image is a copy of the entire contents of a
+storage device, such as a hard drive, DVD, or CD.
+The disk image represents the content exactly as it is on the 
+original storage device, including both data and structure information.
+
+So basicly its all the information on a disk stored in a file image.
+
+What is the command to make a disk image?
+
+What is a disk partition?
+
+How many disk partitions are in a disk image?
+
+What difficulties does this pose if any?
+
+What steps must you take to work with this?
