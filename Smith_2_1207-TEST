@@ -1,0 +1,33 @@
+Given the journal responses - it will behoove you to look up the terms: 
+generalize, abstract, and skill transfer.
+
+Please describe - What does it mean to generalize a skill?
+
+***************************
+
+What are five likely questions for the final exam?
+  1. How do you create a disk image? 
+  2. How do you mount a disk iamge? 
+  3. How can you recover deleted text?
+  4. What is data carving? How is it done
+  5. What is the file header for a jpeg image? PNG?
+ 
+Their answers?
+  1. fallocate -l 10M imagename.img
+     cfdisk imagename.img
+     fdisk -l
+     mkdir/mount/myDisk2
+     mount -o offset 1048576
+     kpartx -a imagename.img
+     kpartx -d imagename.img
+  2. kpartx, mnt
+  3. 
+  4. Data carving is the process of finding the header and footer of a 
+     file and puting the pices back together and makeing a working copy of 
+     the deleated data.  
+  5. ffd8 and  %PDF
+
+Why ask these questions?
+
+Because most of the questions came from previous journals and they rely on you
+knowing the material. 
