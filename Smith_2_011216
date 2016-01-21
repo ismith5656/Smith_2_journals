@@ -1,0 +1,15 @@
+1.Type fls by itself
+It gives you the list of uses it could do. Like -d disply deleted 
+entries only or -D display only directories. 
+2.mmls -i ewf nps-2008-jean.E01
+It gave me info on the slot, start, end, length, description. This part
+3.Why did we type ewf What is ewf?
+Encase image file format-The Encase image file format is used by EnCase used to store various types of digital evidence e.g.
+
+    disk image (physical bitstream of an acquired disk)
+    volume image
+    memory
+    logical files
+4.fls -i ewf -o 63 nps-2008-jean.E01
+
+5.What is a body file?

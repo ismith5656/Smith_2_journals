@@ -1,0 +1,28 @@
+1. Type fls by itself
+This will list file and directory names in a disk image.
+2. mmls nps-2008-jean.dd
+
+3. Why did we type ewf What is ewf?
+
+4. fls -i ewf -o 63 nps-2008-jean.E01
+
+5. What is a body file?
+
+6. fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 >> bodyfile.txt
+
+7. cat bodyfile.txt
+
+8. What is in the bodyfile.txt? What can you tell from the file?
+
+9. What does -r do?
+
+10. What does -m do?
+
+11. mactime -b bodyfile.txt > mactimeout.csv
+
+12. Open the file mactimeout.csv with librecalc
+
+13. fls -r -F "/" -i ewf -o 63 nps-2008-jean.E01 |grep .xls
+
+14. icat -o 63 fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 32712> example.xls
+
