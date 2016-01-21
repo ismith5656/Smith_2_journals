@@ -1,0 +1,20 @@
+First we search for "JFIF". We search for ffd8 by using the command xxd.
+
+Then we grep to find the line.
+
+Using the value from that - we use echo and bc to convert
+base 16 to a decimal number.
+
+For example, in the example from yesterday, we found ibase and 
+converted it to decimal using the command echo and bc
+
+Then to find the end of the file, we searched for _______________ using the 
+command ___________________.
+
+******************************************************
+
+Using that information, we find the number of bits, using the command
+ eco "end of line - beging of the line"
+
+Then using dd we can reconstruct the file using the command
+ __________________________

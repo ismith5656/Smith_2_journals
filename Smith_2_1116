@@ -1,0 +1,12 @@
+How do you split mutiple files in linux?
+
+By using the split command.
+
+What are the specific commands to create, partition, and write files
+to a disk image?
+ 
+fallocate -l 10M imageName.img
+cfdisk imageName.img
+kpartx -a imageName.img
+pico someThing.txt
+kpartx -d imageName.img

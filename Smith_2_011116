@@ -1,0 +1,23 @@
+1.mmls -t dos newfloppy.img - what happens?
+File is not a DOS partition
+2.mmls -t dos manypartitons3.disk
+It lists the partitons slot, start, end, length, description
+3.What is the first column?
+the partitons
+4.What might the slot value be?
+its the value the system has given it
+5.mmls -t list
+lists out the partiton types supported
+6.What are raw, aff, afd, afm, afflib, ewf, and split with regards to
+digital forensics?
+disk image types it reconizes 
+7.Using manypartitions3.disk
+
+8.mmls manypartitions3.disk
+It lists the partitons slot, start, end, length, description
+9.mmls -a manypartitions3.disk
+It the readable lists the partitons slot, start, end, length, description
+10.fdisk -lu manypartitions3.disk
+
+11.mmls -t dos manypartitons3.disk
+

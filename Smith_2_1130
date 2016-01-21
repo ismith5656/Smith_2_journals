@@ -1,0 +1,30 @@
+Look at the link here
+
+Describe:
+
+What type of information does this site provide? Why?
+
+JPEG File Interchange Format File Format Summary which gives you Type, Colors,
+Compression, Maximum Image Size, Numerical Format, Multiple Images Per File,
+Originator, Platform, Supporting Applications. To give you information you
+need on JPEG so you can find stuff like header.
+
+How would a digital forensics expert use this information?
+
+A digital forensics wouild use this to give them the information need to find
+the file. Things like the header and footer of the file.
+ 
+Look at the pdf here
+
+What is it for?
+
+To find the start of certain file type when your data carving.
+
+What information BE SPECIFIC do you need to recover:
+
+an Excel document?
+hexadecimal: D0 CF 11 E0
+a Word document?
+hexadecimal: D0 CF 11 E0
+a ZIP file?
+hexadecimal: 50 4B 03 04 ASCII: PK
