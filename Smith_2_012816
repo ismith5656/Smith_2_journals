@@ -1,0 +1,34 @@
+What is a pst file? 
+
+It is an outlook file format.
+
+What is it good for?
+
+programe used for emails.
+
+Use man pffinfo and man pffexport   
+pffinfo - Determines information about a Personal Folder File
+(OST, PAB and PST)
+pffexport — exports items stored in a Personal Folder File (OST, PAB and PST)
+
+What do these programs do? 
+
+Gives ifomation on the file so that you can pffexport witch will put all
+the files into a directory so we can view them.
+
+How might they be used in digital forensics?
+
+To look into those file formats so you can find evidence.
+
+Use man mairix and man grepmail
+mairix - index and search mail folders.
+grepmail - search mailboxes for mail matching a regular expression
+
+What do these two programs do? 
+
+They search through email messages for an regular expression or 
+common things so finde the evidence 
+
+How might you use them?
+To search through outlook file of a suspect's emails.
+

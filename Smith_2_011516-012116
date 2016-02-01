@@ -1,16 +1,33 @@
 1. Type fls by itself
+
 This will list file and directory names in a disk image.
+
 2. mmls nps-2008-jean.dd
+
+This tells me that it is NTFS / exFAT and has an offset of 63. 
 
 3. Why did we type ewf What is ewf?
 
-4. fls -i ewf -o 63 nps-2008-jean.E01
+It is a file format which stands for Encase image file format and we 
+used is because thats the format of the disk.
+
+4. fls -i raw -o 63 nps-2008-jean.E01
+
+This shows me all the files on the image and where they are located in the 
+dd image.
 
 5. What is a body file?
 
+A body file is a file that lists a timeline of file activity.
+
 6. fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 >> bodyfile.txt
 
+This command will give us a list of files and the dates they where used. 
+
 7. cat bodyfile.txt
+
+It shows us all the information of the system and the programs used but is 
+very hard to read so we could use libreoffice insted 
 
 8. What is in the bodyfile.txt? What can you tell from the file?
 

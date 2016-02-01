@@ -1,0 +1,66 @@
+pffexport outlook.pst
+
+from the recovered pst file
+
+ls the newly created directory
+
+How many directories are there?
+5 directories.
+
+What are the directories?
+IPM_COMMON_VIEWS, IPM_VIEWS, Reminders, Search Root, Top of Personal Folders
+Using cat , Where are the actual messages kept? 
+In Inbox.
+What directory(s)? What files?
+ Inbox 
+Google        Message00045  Message00090  Message00135  Message00180
+Message00001  Message00046  Message00091  Message00136  Message00181
+Message00002  Message00047  Message00092  Message00137  Message00182
+Message00003  Message00048  Message00093  Message00138  Message00183
+Message00004  Message00049  Message00094  Message00139  Message00184
+Message00005  Message00050  Message00095  Message00140  Message00185
+Message00006  Message00051  Message00096  Message00141  Message00186
+Message00007  Message00052  Message00097  Message00142  Message00187
+Message00008  Message00053  Message00098  Message00143  Message00188
+Message00009  Message00054  Message00099  Message00144  Message00189
+Message00010  Message00055  Message00100  Message00145  Message00190
+Message00011  Message00056  Message00101  Message00146  Message00191
+Message00012  Message00057  Message00102  Message00147  Message00192
+Message00013  Message00058  Message00103  Message00148  Message00193
+Message00014  Message00059  Message00104  Message00149  Message00194
+Message00015  Message00060  Message00105  Message00150  Message00195
+Message00016  Message00061  Message00106  Message00151  Message00196
+Message00017  Message00062  Message00107  Message00152  Message00197
+Message00018  Message00063  Message00108  Message00153  Message00198
+Message00019  Message00064  Message00109  Message00154  Message00199
+Message00020  Message00065  Message00110  Message00155  Message00200
+Message00021  Message00066  Message00111  Message00156  Message00201
+Message00022  Message00067  Message00112  Message00157  Message00202
+Message00023  Message00068  Message00113  Message00158  Message00203
+Message00024  Message00069  Message00114  Message00159  Message00204
+Message00025  Message00070  Message00115  Message00160  Message00205
+Message00026  Message00071  Message00116  Message00161  Message00206
+Message00027  Message00072  Message00117  Message00162  Message00207
+Message00028  Message00073  Message00118  Message00163  Message00208
+Message00029  Message00074  Message00119  Message00164  Message00209
+Message00030  Message00075  Message00120  Message00165  Message00210
+Message00031  Message00076  Message00121  Message00166  Message00211
+Message00032  Message00077  Message00122  Message00167  Message00212
+Message00033  Message00078  Message00123  Message00168  Message00213
+Message00034  Message00079  Message00124  Message00169  Message00214
+Message00035  Message00080  Message00125  Message00170  Message00215
+Message00036  Message00081  Message00126  Message00171  Message00216
+Message00037  Message00082  Message00127  Message00172  Message00217
+Message00038  Message00083  Message00128  Message00173  Message00218
+Message00039  Message00084  Message00129  Message00174  Message00219
+Message00040  Message00085  Message00130  Message00175  Message00220
+Message00041  Message00086  Message00131  Message00176  Message00221
+Message00042  Message00087  Message00132  Message00177  Message00222
+Message00043  Message00088  Message00133  Message00178
+Message00044  Message00089  Message00134  Message00179
+
+cat and grep the files to find the email requesting the spreadsheet.
+
+Is this email suspicious/problematic? 
+it is not sent by 
+How? Be specific. Explain what most likely happened.
