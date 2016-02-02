@@ -60,7 +60,12 @@ Message00043  Message00088  Message00133  Message00178
 Message00044  Message00089  Message00134  Message00179
 
 cat and grep the files to find the email requesting the spreadsheet.
+Message00207:Message.txt:Could you please put together for me a 
+spreadsheet specifying each of our employees, their
 
-Is this email suspicious/problematic? 
-it is not sent by 
-How? Be specific. Explain what most likely happened.
+Is this email suspicious/problematic?
+From the message.txt nothing looks suspicious, but the 
+InternetHeaders.txt showes that tuckgorge@gmail.com was the one that 
+recieved the email. 
+it is not sent by how? Be specific. Explain what most likely happened.
+The guy got the email and posted it to the internet.
