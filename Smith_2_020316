@@ -1,5 +1,6 @@
 1. What browser is being used? How do you know?
    [Give output to support your answer]
+FireFox
 
 2. What subnet is the machine on?
 
@@ -8,9 +9,10 @@
 4. What is Verisign?
 
 5. Which programming language is being investigated?
+Python
 
 6. What are ack and seq?
-
+ack – indicates that the Acknowledgment field is significant. All packets after the initial SYN packet sent by the client should have this flag set.
 7. Is someone sending email? How do you know?
 
 8. Is there a printer on the network? How do you know? 
