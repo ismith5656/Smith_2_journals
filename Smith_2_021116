@@ -1,0 +1,13 @@
+How and why might you capture network data for forensic purposes?
+
+Relating to security, involves monitoring a network for anomalous traffic 
+and identifying intrusions. An attacker might be able to erase all log files 
+on a compromised host; network-based evidence might therefore be the only 
+evidence available for forensic analysis. Relates to law enforcement. In 
+this case analysis of captured network traffic can include tasks such as 
+reassembling transferred files, searching for keywords and parsing human 
+communication such as emails or chat sessions.
+
+Two systems are commonly used to collect network data; 
+a brute force "catch it as you can" and a more 
+intelligent "stop look listen" method.
