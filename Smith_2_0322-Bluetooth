@@ -1,0 +1,20 @@
+What is Bluetooth?
+Bluetooth is a wireless technology standard for exchanging data over short distances (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz[4]) from fixed and mobile devices, and building personal area networks (PANs).
+
+Yesterday, you should have written a journal describing how a network was compromised and how you solved the crime. 
+
+Did you mention Bluetooth? 
+No
+
+Why or why not?
+The susspect used a infected USB drive to bypass the router filter.
+
+      What do the following tools do? And what is a sample command for each?
+    1.hciconfig
+	hciconfig is used to configure bluetooth devices
+    2.hcitool
+	hcitool is used to configure bluetooth connections and send some special command to bluetooth devices.
+    3.hcidump
+	hcidump reads raw HCI data coming from and going to a bluetooth device and prints to the screen commands, events and data in human-readable form
+Run apt-cache search bluetooth |less - What are three interesting packages you see? How are they interesting?
+bluelog, amora-applet, blueman
