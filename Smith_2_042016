@@ -1,0 +1,24 @@
+
+    1. What is the bandwidth of wifi?
+	2.4GHz
+    2. What channels does wifi have?
+	1-13 channal. 12 and 13 are restricted to military.
+    3. Which channels do people commonly use? Why?
+	channels 1-11
+    What are the differences between A, B, G, N, and AC IEEE defined wireless 
+    protocols?
+The earliest wireless adapters were rated “b,” which was followed by “g,” which was followed by “n.” Wireless “b” allowed for speeds up to 11 Mbps; “g” maxed out at 54 Mbps; and “n” offers 300 Mbps.
+    4. What are WEP, WPA, and WPA2? What are the differences?
+    	Diffrent security proticals. 
+    5. Which is more secure? Which is least secure? Why?
+    	WAP2 is more secure and WEP is the least secure.
+    6. What is AirSnort? What is it for? How does it work?
+    	AirSnort is a wireless LAN (WLAN) tool which cracks encryption keys 
+	on 802.11b WEP networks
+    7. What is Kismet (for wireless)? What are its legal, legitimate uses?
+    	Kismet is an 802.11 layer-2 wireless network detector, sniffer, and intrusion detection system. It will work with any wireless card that 
+	supports raw monitoring.
+    8. What is Karma (the wireless tool)?
+	KARMA is a set of tools for assessing the security of wireless clients
+	at multiple layers. Wireless sniffing tools discover clients and their
+	preferred/trusted networks.
