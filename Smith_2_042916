@@ -1,0 +1,22 @@
+What are 3 types of aftermarket firmware for routers?
+DebWRT, OpenWrt, and HyperWRT
+What are the advantages of such firmware? Be Specific
+It allows you to do more with your routers.
+What are the disadvantages?
+You could permitly damage your router.
+What is the process for installing such firmware?
+ifconfig, then uname -a, then, edit /etc/apt/sources.list, then, run apt-get 
+update, then, run the command apt-cache search kernel|grep image, 
+then, apt-get update && apt-get install -y linux-headers-$(uname -r)
+, then - in Kali type shutdown -r now, then, Remove the wireless dongle, 
+then, type ifconfig and then uname -a, 
+then, Insert the wireless dongle and pass it through using the virtualbox interface, 
+finally, enter apt-get install linux-headers-amd64 build-essential git checkinstall
+              git clone https://github.com/porjo/mt7601.git
+              mkdir -p /etc/Wireless/RT2870STA/
+              cd ./mt7601/src
+              make
+              checkinstall -D make install #answer questions as you like. They don't need answers
+              cp RT2870STA.dat /etc/Wireless/RT2870STA/
+              modprobe mt7601Usta
+  
